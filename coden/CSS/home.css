@@ -1,0 +1,44 @@
+body{
+    background-image: url('../Imagens/c.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: -15%;
+}
+.img{
+
+width: 60px;
+    border-radius: 50%;
+}
+
+.nav-link:hover{
+
+
+color: white;
+font-weight: bolder;
+
+}
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+
+    font-size: 1.2em;
+}
+
+.navbar{
+    width: 100%;
+    position: relative;
+
+
+}
+
+.icon {
+    font-size: 150px;
+    color: white;
+    position: relative;
+    left: 100%;
+}
+img{
+    position: relative;
+    
+}

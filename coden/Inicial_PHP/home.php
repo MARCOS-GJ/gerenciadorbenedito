@@ -1,0 +1,51 @@
+
+<?php
+
+    function Nav(){
+
+      return<<<HTML
+         <nav class="navbar navbar-expand-lg"style="background-color: #D11800";>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+             <img class="img" src="../Imagens/c.png" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                 <div class="cor">  <a class="nav-link" aria-current="page" href="../Inicial_HTML/home.html">Home</a></div> 
+                  </li>
+                  <li class=" nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Lista</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../PHP_P/lista.php">Patrimônio</a></li>
+                      <li><a class="dropdown-item" href="../PHP_S/lista.php">Sala</a></li>
+                 </ul>
+                  </li>
+                  <li class=" nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Cadastro</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../PHP_P/cadastrar.php">Patrimônio</a></li>
+                      <li><a class="dropdown-item" href="../PHP_S/cadastrar.php">Sala</a></li>
+                 </ul>
+                  </li>
+                  <li class=" nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Pesquisa</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../PHP_P/consultar.php">Patrimônio</a></li>
+                      <li><a class="dropdown-item" href="../PHP_S/consultar.php">Sala</a></li>
+                 </ul>
+                  </li>
+              </div>
+              <a href="../Inicial_PHP/logout.php"><svg xmlns="http://www.w3.org/2000/svg" color="white" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+              </svg>
+            </a>
+            </div>
+          </nav>
+        HTML;
+    }
+?>
